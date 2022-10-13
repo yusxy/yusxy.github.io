@@ -1,0 +1,224 @@
+.news-nav {
+    height: 120px;
+    display: table;
+    margin-bottom: 5.4rem;
+    margin-top: 20rem;
+}
+
+.news-nav ul {
+    display: table-row;/*display 隐藏表格 内容放在了单元格里*/
+}
+
+.news-nav li {
+    display: table-cell;/*隐藏内框线？*/
+    padding: 1.6rem 3rem;/*内边距上 右*/
+    vertical-align: bottom;/*“vertical-align: bottom将元素所在行内框的底边与行框的底边对齐。*/
+    width: 100px;
+    text-align: center;
+    background-image: url(images/bgline2.gif);/*引入的下划线*/
+    background-repeat: no-repeat;/*设置背景图片的重复样式为不重复，也就是说背景图片不平铺，只显示一张*/
+    background-position: center bottom;/*背景位置 居中 底部？*/
+}
+
+.news-nav li a {
+    text-decoration: none;
+    color: #626261;
+    font-size: 1.8rem;
+}
+
+.news-nav li.active {/*单独设置 当前活动/被选中*/
+    background-image: url(images/bgline.gif);
+}
+
+.news-nav li.active a {/*单独设置 当前活动/被选中*/
+    font-weight: bold;/*加粗 字体粗细*/
+    color: #000;/*颜色*/
+}
+
+.news-content li {
+    display: none;/*不显示*/
+}
+
+.news-content li:first-child {/*自动跳转显示第一*/
+    display: block;/* 跳转 显示*/
+}
+
+.number {/*中间哪些 数字的特殊样式的设置*/
+    width: 90%;
+    margin: 50px auto;
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+.number ul {
+    display: table-row;
+}
+
+.number li {
+    display: table-cell;
+}
+
+.number li b {
+    font-size: 4.8rem;
+    color: red;
+}
+
+.main-bot-left {/*主体下半的左边形式*/
+    width: 18.5%;
+    height: 350px;
+    float: left;
+}
+
+.main-bot-right {/*主体下半的右边形式*/
+    width: 74.3333%
+        /*892/1200*/
+    ;
+    float: right;
+}
+
+.main-bot-right>p {/*右边段落的格式 后边距 80px*/
+    margin-bottom: 80px;
+}
+
+a.contact {/*联系我们 的样式*/
+    padding: 20px 26%;
+    background-color: #000;
+    color: #fff;/*字体颜色*/
+    display: inline-block;/*在同一行显示 处理行高问题？*/
+}
+
+
+main {/*主体部分 的背景色*/
+    background-color: rgb(254, 254, 254);
+}
+
+@media screen and (max-width:1024px){
+    
+}
+
+
+@media screen and (max-width: 500px) {
+
+    /* .mainnav nav {width: 20.8333%;} */
+    html {
+        font-size: 5px;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    main {
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .mainnav {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .mainnav nav,
+    .topnav {
+        display: none;
+    }
+
+    .mainmenu {
+        display: inline-block;
+        padding: 30px;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .logo {
+        margin-top: 25px;
+    }
+
+    .banner {
+        padding: 0;
+    }
+
+    .main-bot-right .picbox {
+        width: 100%;
+    }
+
+    .main-bot-right {
+        width: 100%;
+    }
+
+    .news-menu {/*列表样式*/
+        width: 100%;
+        height: 16rem;
+    }
+
+    .news-menu ul {/*列表样式*/
+        display: none;/*隐藏*/
+    }
+
+    .news-nav li {
+        padding: 1.6rem 1.2rem;
+    }
+
+    .content,
+    .copyright,
+    .sitemap {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .news-content img {
+        width: 100%;
+    }
+
+    .news-nav {
+        margin-bottom: 5rem;
+        margin-top: 10rem;
+    }
+
+    /*两端对齐*/
+    .txtbox {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .main-bot-right ul.tigong li {
+        font-size: 2.8rem;
+    }
+
+    .entr .bigtitle {
+        margin-bottom: 4rem;
+    }
+/*footer 大致是一样的*/
+    .footer-top,
+    .footer-bot {
+        padding: 0 10px;
+    }
+
+    .footer-top .inner ul {
+        float: none;
+        width: 100%;
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    .footer-bot .sitemap {
+        text-align: center;
+    }
+
+    .cotyright {
+        margin: 1rem 0;
+    }
+
+    .inner {
+        width: 100%;
+    }
+
+    .main-bot-left {
+        width: 100%;
+    }
+
+}

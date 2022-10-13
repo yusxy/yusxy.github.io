@@ -1,0 +1,182 @@
+.news-nav {
+    height: 120px;
+    display: table;
+    margin-bottom: 5.4rem;
+    margin-top: 20rem;
+}
+
+.news-nav ul {
+    display: table-row;/*display 隐藏表格 内容放在了单元格里*/
+}
+
+.news-nav li a {
+    text-decoration: none;
+    color: #626261;
+    font-size: 1.8rem;
+}
+
+.news-content li {
+    display: none;/*不显示*/
+
+}
+
+.main.content.liebiao.erling{
+    margin-top: 1.8rem;
+}
+
+
+a{
+    text-decoration: none;
+    color:rgb(37, 165, 234)
+}
+hr{width: 100%;}
+.mainnav nav ul{list-style-type: none;}
+ul{list-style-type: disc;}
+ul li{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+/* .mainnav ul {
+    list-style-type: none;
+} */
+.erling{margin-top: 1.8rem;}
+
+.jianju{
+    margin-bottom: 1.8rem;
+}
+.left{float:left;margin-bottom: 1rem;}
+.right{float:right;}
+.zuihou{margin-bottom: 6rem;}
+
+main {/*主体部分 的背景色*/
+    background-color: rgb(254, 254, 254);
+}
+.content.zuihou{
+    margin-bottom:6rem;
+}
+h4{font-size: 20px;}
+
+
+@media screen and (max-width: 500px) {
+
+    /* .mainnav nav {width: 20.8333%;} */
+    html {
+        font-size: 5px;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    main {
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .mainnav {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .mainnav nav,
+    .topnav {
+        display: none;
+    }
+
+    .mainmenu {
+        display: inline-block;
+        padding: 30px;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .logo {
+        margin-top: 25px;
+    }
+
+    .main-bot-right {
+        width: 100%;
+    }
+
+    .news-menu {/*列表样式*/
+        width: 100%;
+
+    }
+
+    .news-nav li {
+        padding: 1.6rem 1.2rem;
+    }
+
+    .content,
+    .copyright,
+    .sitemap {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .news-content img {
+        width: 100%;
+    }
+
+    .news-nav {
+        margin-bottom: 5rem;
+        margin-top: 10rem;
+    }
+
+    /*两端对齐*/
+    .txtbox {
+        width: 100%;
+        text-align: justify;
+    }
+
+    /*nian年的哪里还没解决*/
+    .main-bot-right.ul.nian li {
+        font-size: 10rem;
+        line-height: 2em;
+        list-style-type: square;
+        list-style-position: inside;
+    }
+
+    ul.nian li a {
+        color: rgb(42, 143, 215);
+        text-decoration: none;
+    }
+
+    .entr .bigtitle {
+        margin-bottom: 4rem;
+    }
+/*footer 大致是一样的*/
+    .footer-top,
+    .footer-bot {
+        padding: 0 10px;
+    }
+
+    .footer-top .inner ul {
+        float: none;
+        width: 100%;
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    .footer-bot .sitemap {
+        text-align: center;
+    }
+
+    .cotyright {
+        margin: 1rem 0;
+    }
+
+    .inner {
+        width: 100%;
+    }
+
+    .main-bot-left {
+        width: 100%;
+    }
+
+}
